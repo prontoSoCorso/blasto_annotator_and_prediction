@@ -3,6 +3,17 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Ignore big csv
+
+
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.tiff
+
 # User-specific files
 *.rsuser
 *.suo
@@ -416,3 +427,14 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# New files to ignore
+Normalized_sum_mean_mag_3Days_test.csv
+DB_Morpheus_withID.csv
+_01_annotator_and_xgboost/sample_img_list.csv
+blastocyst_prediction_results.csv
+saved_model.pb
+*NASNet_embryo_17class*
+_01_annotator_and_xgboost/Blastocyst_Prediction.zip
+_01_annotator_and_xgboost/Blastocyst_Prediction.zipmo3_87zh.part
